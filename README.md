@@ -1,6 +1,6 @@
 # IndiaHealthInfo.com
 
-An independent, **checklist-first medical travel information portal**, with no bookings, no clinical services and no Lovable Cloud dependency.
+An independent, **checklist-first medical travel information portal**, with no bookings, no clinical services.
 
 ## Included in Phase 1
 
@@ -32,7 +32,7 @@ npm run build
 # ./out contains static HTML/CSS/JS
 ```
 
-## Deploy without Lovable Cloud
+## Deployment
 
 **Cloudflare Pages:** Connect this GitHub repository, select Next.js static export (or no framework preset), build command `npm run build`, output directory `out`, and a Node.js 22 runtime. Add `indiahealthinfo.com` as a custom domain. Cloudflare Pages handles HTTPS after domain/DNS validation.
 
