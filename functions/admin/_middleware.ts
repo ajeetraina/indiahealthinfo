@@ -1,0 +1,2 @@
+import {validSession,type Env} from "../_shared/admin";
+export const onRequest:PagesFunction<Env>=async ({request,env,next})=>{const url=new URL(request.url);if(url.pathname.startsWith("/admin/analytics")&&!(await validSession(request,env)))return Response.redirect(url.origin+"/admin/login/",302);const response=await next();response.headers.set("Cache-Control","private, no-store");response.headers.set("X-Robots-Tag","noindex, nofollow");return response};
