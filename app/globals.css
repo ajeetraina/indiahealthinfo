@@ -51,3 +51,18 @@ body{color:var(--ink)}.site-header{background:#fff;border-bottom:1px solid #e5eb
 .mobile-menu nav{background:#1b3545;border-color:#426276}
 .mobile-menu nav a{color:#edf6f8}.mobile-menu nav a:hover{background:#284a5b}
 .mobile-menu nav .mobile-contribute{background:#208c91}
+
+
+/* Ocean-blue design system inspired by Docker's blue-whale palette; IndiaHealthInfo retains its own identity. */
+:root{--ink:#102a43;--muted:#516b82;--teal:#086dd7;--line:#d8e5f3;--cream:#f5f9ff;--mint:#e8f3ff;--docker-blue:#2496ed;--ocean:#073b77;--sky:#dff1ff}
+body{color:#102a43}
+.site-header{background:#083c78;border-bottom-color:#17599b}
+.site-header .brand,.site-header .links a{color:#fff}
+.site-header .links a:hover{color:#9edcff}
+.site-header .nav-cta{background:#2496ed;border-color:#2496ed;color:#fff!important}
+.site-header .nav-cta:hover{background:#087acb}
+.mobile-menu summary{background:#14538f;border-color:#4488c2;color:#fff}
+.mobile-menu nav{background:#0b4078;border-color:#3375b1}
+.mobile-menu nav a:hover{background:#175b99}
+.mobile-menu nav .mobile-contribute{background:#2496ed}
+a:focus-visible,button:focus-visible{outline:3px solid #60b9ff;outline-offset:3px}
