@@ -30,3 +30,5 @@
 .contribute-cta .btn{margin-top:14px}
 @media(max-width:850px){.contribute-grid{grid-template-columns:1fr}.contribute-hero{padding:54px 0}}
 @media(max-width:550px){.contribute-topics{grid-template-columns:1fr}.contribute-highlight{min-height:300px;padding:25px}.contribute-cta .btn{font-size:.82rem;overflow-wrap:anywhere}}
+
+.consent-link{display:block;margin:11px 0;padding:0;background:none;border:0;color:#c4dcd8;font-size:inherit;text-align:left}.consent-link:hover{color:var(--teal)}
