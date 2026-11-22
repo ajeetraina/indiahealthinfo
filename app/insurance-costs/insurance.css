@@ -9,3 +9,13 @@
 .ins-hero .btn-outline:hover{background:#ffffff1c!important}
 .ins-panel{background:#f4f9fb;color:#17364a;box-shadow:0 20px 45px #051d2d50}
 .ins-panel h2{color:#17364a}.ins-panel>span{color:#176e87}.ins-panel ol{color:#365a6d}
+
+
+.ins-hero{background:radial-gradient(circle at 82% 30%,#126eb9,transparent 43%),linear-gradient(120deg,#062b5b,#0b5697);color:#fff}
+.ins-hero h1{color:#fff}.ins-hero h1 em{color:#9cddff}
+.ins-hero .eyebrow{color:#9cddff}.ins-hero p,.ins-disclosure{color:#d4eaff}
+.ins-panel{background:#f2f9ff;border:1px solid #b9dff9;color:#113e66}
+.ins-panel h2{color:#103e68}.ins-panel>span{color:#087acb}
+.ins-card>svg,.ins-card>span,.ins-card strong,.ins-links a,.ins-policy a,.ins-policy svg{color:#087acb}
+.ins-contribute{background:#eaf5ff}
+.ins-card:hover{border-color:#7abcf0}
