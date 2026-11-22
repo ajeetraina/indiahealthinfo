@@ -22,3 +22,28 @@
 .ih-discover-card,.ih-topic-card,.ih-country,.ih-essential,.ih-guide,.ih-city-photo-card{box-shadow:0 7px 22px #173b4b0b}
 .ih-contribute{background:linear-gradient(120deg,#0d293c,#164d60)}
 @media(prefers-reduced-motion:reduce){.ih-globe,.ih-float,.ih-orbit{animation:none}}
+
+
+/* Docker-inspired blue whale / ocean palette, without using Docker branding */
+.ih-hero{background:radial-gradient(circle at 80% 30%,#126bb5 0,transparent 43%),radial-gradient(circle at 14% 95%,#07518f 0,transparent 37%),linear-gradient(120deg,#062c60,#08457f);color:#fff}
+.ih-hero h1{color:#fff}.ih-hero h1 em{color:#84d5ff}
+.ih-overline{color:#9bdfff}.ih-pulse{background:#5ec7ff;box-shadow:0 0 0 6px #5ec7ff25}
+.ih-hero-copy>p,.ih-hero-proof,.ih-art-caption{color:#d2eaff}
+.ih-primary{background:#2496ed;color:#fff;box-shadow:0 10px 25px #002c5c35}.ih-primary:hover{background:#087acb}
+.ih-secondary{color:#fff;border-color:#8cc9f0;background:#ffffff14}
+.ih-secondary:hover{background:#ffffff25;color:#fff}
+.ih-globe{background:linear-gradient(145deg,#2496ed,#07519b);color:#e5f7ff;box-shadow:0 30px 70px #001f4566}
+.ih-orbit{border-color:#6dbef5}.ih-float{border-color:#b8dcf6;background:#f7fbff;color:#10375e}
+.ih-float span,.ih-section-kicker,.ih-text-link,.ih-discover-arrow,.ih-topic-tag,.ih-topic-more,.ih-essential>span,.ih-guide strong,.ih-city-photo-title svg,.ih-city-popular strong{color:#087acb}
+.ih-discover-icon,.ih-guide-icon{background:#e2f2ff;color:#087acb}
+.ih-band{background:#edf6ff}
+.ih-discover-card,.ih-topic-card,.ih-country,.ih-essential,.ih-guide,.ih-city-photo-card{border-color:#d5e6f6}
+.ih-city-photo-card:hover,.ih-discover-card:hover,.ih-topic-card:hover{border-color:#77bff3}
+.ih-city{background:linear-gradient(145deg,#07519b,#2496ed)}
+.ih-city-1,.ih-city-4{background:linear-gradient(145deg,#06447f,#2d89d2)}
+.ih-city-2,.ih-city-5{background:linear-gradient(145deg,#083d77,#1878c4)}
+.ih-contribute{background:linear-gradient(120deg,#062b5b,#075ca6)}
+.ih-contribute .ih-section-kicker{color:#9edfff}
+.ih-contribute .ih-primary{background:#fff;color:#07519b}
+.ih-contribute .ih-primary:hover{background:#dff1ff}
+.ih-photo-credit:hover{color:#087acb}
