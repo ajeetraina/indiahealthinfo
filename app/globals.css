@@ -39,3 +39,15 @@
 body{color:var(--ink)}.site-header{background:#fff;border-bottom:1px solid #e5ebf0;box-shadow:0 2px 12px #172c4207}.site-header .nav{max-width:1320px;min-height:78px;gap:32px;flex-wrap:nowrap}.site-header .brand{flex-shrink:0;white-space:nowrap;font-size:1.08rem;letter-spacing:-.045em;color:#173b4b}.site-header .brand img{width:38px;height:38px}.site-header .links{display:flex;align-items:center;justify-content:center;gap:clamp(13px,1.65vw,25px);min-width:0;flex:1;white-space:nowrap;font-size:.87rem;font-weight:650}.site-header .links a{padding:10px 0;transition:color .2s}.site-header .links a:hover{color:#167c98}.header-actions{flex-shrink:0;display:flex;align-items:center}.site-header .nav-cta{padding:11px 17px;border-radius:10px;white-space:nowrap;font-size:.84rem;background:#176e87;border-color:#176e87;gap:12px;box-shadow:none}.site-header .nav-cta:hover{background:#10566b}.site-header .mobile-linkbar{display:none!important}.mobile-menu{display:none;position:relative}.mobile-menu summary{list-style:none;cursor:pointer;border:1px solid #d8e4eb;border-radius:10px;padding:10px 13px;font-weight:750;display:flex;align-items:center;gap:12px;color:#173b4b}.mobile-menu summary::-webkit-details-marker{display:none}.mobile-menu nav{position:absolute;right:0;top:calc(100% + 12px);min-width:240px;max-height:75vh;overflow:auto;background:white;border:1px solid #dbe6ec;border-radius:15px;padding:9px;box-shadow:0 22px 55px #18374724;display:grid;z-index:100}.mobile-menu nav a{padding:13px 15px;border-radius:9px;font-weight:700;font-size:14px}.mobile-menu nav a:hover{background:#eff6f9}.mobile-menu nav .mobile-contribute{background:#176e87;color:#fff;margin-top:6px}.mobile-menu nav .mobile-contribute:hover{background:#10566b}
 @media(max-width:1130px){.site-header .links{display:none}.site-header .nav{min-height:72px}.mobile-menu{display:block}}
 @media(max-width:560px){.site-header .nav{gap:10px;padding-left:16px;padding-right:16px}.site-header .brand{font-size:.96rem;gap:7px}.site-header .brand img{width:32px;height:32px}.site-header .nav-cta{display:none}.mobile-menu nav{right:0}.site-header .nav{min-height:68px}}
+
+
+/* Refined midnight-blue navigation — high contrast, restrained and responsive */
+.site-header{background:#142c3c;border-bottom-color:#24465a;box-shadow:0 6px 22px #0b243022}
+.site-header .brand,.site-header .links,.site-header .links a{color:#eaf4f7}
+.site-header .links a:hover{color:#8fd6db}
+.site-header .nav-cta{background:#208c91;border-color:#208c91;color:#fff!important}
+.site-header .nav-cta:hover{background:#26a0a3}
+.mobile-menu summary{color:#eaf4f7;background:#1c3d50;border-color:#446377}
+.mobile-menu nav{background:#1b3545;border-color:#426276}
+.mobile-menu nav a{color:#edf6f8}.mobile-menu nav a:hover{background:#284a5b}
+.mobile-menu nav .mobile-contribute{background:#208c91}
