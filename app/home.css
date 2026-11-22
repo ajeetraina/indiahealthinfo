@@ -6,3 +6,19 @@
 
 /* Featured city photography and neighbourhood discovery */
 .ih-city-photo-card{background:#fff;border:1px solid #dce6ed;border-radius:20px;overflow:hidden;transition:transform .25s,box-shadow .25s;min-width:0}.ih-city-photo-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px #153c611c}.ih-city-photo-link{display:block;color:#172c42}.ih-city-photo{position:relative;height:195px;overflow:hidden;background:linear-gradient(130deg,#dcecf4,#aacddd)}.ih-city-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s}.ih-city-photo-card:hover .ih-city-photo img{transform:scale(1.045)}.ih-city-photo-label{position:absolute;bottom:12px;left:12px;display:inline-flex;align-items:center;gap:6px;max-width:calc(100% - 24px);background:#ffffffed;border-radius:30px;padding:7px 11px;font-size:11px;font-weight:800;color:#204f65}.ih-city-photo-body{padding:20px 21px 14px}.ih-city-photo-title{display:flex;justify-content:space-between;align-items:center;gap:10px}.ih-city-photo-title h3{font-size:22px;margin:0}.ih-city-photo-title svg{color:#176e87}.ih-city-photo-body>p{font-size:13px;color:#5c7381;margin:6px 0 17px}.ih-city-popular{border-top:1px solid #e5edf1;padding-top:14px;display:grid;gap:6px}.ih-city-popular strong{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#176e87}.ih-city-popular span{font-size:13px;line-height:1.6;color:#3d5c6d}.ih-photo-credit{display:block;padding:0 21px 15px;color:#788c99;font-size:10px;text-decoration:underline;text-underline-offset:2px}.ih-photo-credit:hover{color:#176e87}@media(max-width:650px){.ih-city-photo{height:210px}}
+
+
+/* Darker editorial theme: rich midnight hero, light discovery surfaces */
+.ih-hero{background:radial-gradient(circle at 78% 35%,#285b70 0,transparent 40%),radial-gradient(circle at 10% 95%,#234858 0,transparent 37%),linear-gradient(125deg,#102a3b,#173b4d);color:#f2f8fa}
+.ih-hero h1{color:#fff}.ih-hero h1 em{color:#9de3d7}
+.ih-hero-copy>p,.ih-hero-proof,.ih-art-caption{color:#c5dce3}
+.ih-overline{color:#9de3d7}
+.ih-secondary{background:#ffffff14;border-color:#ffffff6b;color:#f2f8fa}
+.ih-secondary:hover{background:#ffffff24;color:#fff}
+.ih-globe{background:linear-gradient(145deg,#327e91,#0d2c42);box-shadow:0 32px 65px #061c2b70}
+.ih-orbit{border-color:#79b9c6}
+.ih-float{background:#f7fbfd;border-color:#cfe3ea;color:#173b4b}
+.ih-band{background:#edf3f7}
+.ih-discover-card,.ih-topic-card,.ih-country,.ih-essential,.ih-guide,.ih-city-photo-card{box-shadow:0 7px 22px #173b4b0b}
+.ih-contribute{background:linear-gradient(120deg,#0d293c,#164d60)}
+@media(prefers-reduced-motion:reduce){.ih-globe,.ih-float,.ih-orbit{animation:none}}
