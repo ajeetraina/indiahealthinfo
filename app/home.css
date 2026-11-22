@@ -47,3 +47,11 @@
 .ih-contribute .ih-primary{background:#fff;color:#07519b}
 .ih-contribute .ih-primary:hover{background:#dff1ff}
 .ih-photo-credit:hover{color:#087acb}
+
+
+/* Research library: topic-specific visual identity instead of repeated book icon */
+.ih-guide-icon-medical-travel-checklist{background:#e8f2ff;color:#1165bd}
+.ih-guide-icon-medical-visa-india{background:#e6f5fb;color:#087da7}
+.ih-guide-icon-insurance-treatment-abroad{background:#f0edff;color:#6754b6}
+.ih-guide-icon-aftercare-return-flight{background:#e8f7f3;color:#087b6a}
+.ih-guide-icon-choosing-hospital-india{background:#fff2e6;color:#a25c19}
